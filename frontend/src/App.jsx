@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import Nav from './Nav';
-import Home from './Home';
-import Bicicletas from './Bicicletas';
-import Sobre from './Sobre';
-import Contato from './Contato';
-import Footer from './Footer';
+import Nav from './components/Nav';
+import Home from './routes/Home';
+import Bicicletas from './routes/Bicicletas';
+import Sobre from './routes/Sobre';
+import Contato from './routes/Contato';
+import Footer from './components/Footer';
 
 function App() {
   return (
